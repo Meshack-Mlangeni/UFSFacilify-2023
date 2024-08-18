@@ -1,0 +1,63 @@
+﻿@model LoginViewModel
+@{
+    ViewBag.Title = "Facilify - Login";
+}
+
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card shadow-sm">
+        <div>
+            <div id="register-panel" class="card-header">
+                <div class="text-center">
+                    <img class="img-fluid p-3" style="width:10rem;filter: drop-shadow(0px 0px 1px rgba(254, 254, 254, 0.8));" src="/images/ufs_logo.png" />
+                </div>
+                <h2 class="display-6 text-light text-center ps-2 pe-2">Welcome back, login to your account</h2>           
+            </div>
+
+            <div class="text-danger mt-3" asp-validation-summary="All"></div>
+
+            <div class="p-4 pb-5">
+                <form asp-action="Login" asp-controller="Account" method="post">
+
+                    <div class="form-group mb-2">
+                        <label class="text-uppercase fw-bolder text-dark-emphasis" asp-for="Email"></label>
+                        <input class="form-control" asp-for="Email" autocomplete="off"
+                         placeholder="Enter email address"/>
+                    </div>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+
+                    <div class="form-group mb-2">
+                        <div class="d-flex justify-content-between">
+                            <label class="text-uppercase fw-bolder text-dark-emphasis" asp-for="Password"></label>
+                            <a class="visually-hidden" asp-action="Recovery" asp-controller="Account">
+                                <small>Forgot Password?</small>
+                            </a>
+                        </div>
+                        
+                        <input class="form-control" asp-for="Password"
+                               placeholder="Enter password" />
+                    </div>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+
+                    <div class="mb-2 mt-1">
+                        <input class="form-check-input" asp-for="RememberMe" type="checkbox" />
+                        <label class="form-check-label">Remember me</label>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-dark btn-sm shadow-sm">
+                            <span class="fa fa-key"></span>
+                            Login to your account
+                        </button>
+                        <br /><br />
+                        Don't have an account?
+                        <a asp-action="Register" asp-controller="Account">
+                            Create an account
+                        </a>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

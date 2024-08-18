@@ -1,0 +1,89 @@
+﻿@model RecoverAccountViewModel
+@{
+    ViewBag.Title = "Facilify - Recover account";
+}
+
+<div class="d-flex justify-content-center align-items-center p-4" style="min-height: 100vh;">
+    <div class="card shadow-sm">
+        <div>
+            <div id="register-panel" class="card-header">
+                <div class="text-center">
+                    <img class="img-fluid p-3" style="width:10rem;" src="/images/ufs_logo.png" />
+                </div>
+                <h2 class="display-6 text-light text-center ps-4 pe-4">
+                    Recover your account
+                </h2>
+            </div>
+        </div>
+
+        <div class="m-5">
+            @if (Model == null)
+            {
+
+                <form asp-action="Recovery" asp-controller="Account" method="get">
+                    <div class="form-group mb-3">
+                        <label class="text-uppercase fw-semibold text-dark-emphasis">Recover using email address</label>
+                        <input class="form-control" name="email" autocomplete="off"
+                               placeholder="Enter email address" />
+                    </div>
+                    <h6 class="text-danger">@ViewBag.Error</h6>
+
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-dark btn-sm shadow-sm">
+                            <span class="fa fa-user-check"></span>
+                            Get security question
+                        </button>
+                        <a class="btn btn-outline-danger btn-sm" asp-action="Login" asp-controller="Account">
+                            Return to login
+                        </a>
+                    </div>
+                </form>
+
+            }
+            else
+            {
+                <form asp-action="Recovery" asp-controller="Account" method="post">
+
+                    <h6 class="mb-3 text-success">Question: <b>@Model.SecurityQuestion</b></h6>
+                    <input asp-for="SecurityQuestion" type="hidden" />
+                    <input asp-for="Email" type="hidden" />
+
+                    <h6 class="text-danger m-3">@ViewBag.Error</h6>
+
+                    <div class="form-group mb-3">
+                        <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="SecurityAnswer"></label>
+                        <input class="form-control" asp-for="SecurityAnswer" autocomplete="off"
+                               placeholder="Write your answer here" />
+                    </div>
+                    <span asp-validation-for="SecurityAnswer" class="text-danger"></span>
+
+                    <div class="form-group mt-5 mb-2">
+                        <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="Password"></label>
+                        <input class="form-control" asp-for="Password" autocomplete="off"
+                               placeholder="Enter password" />
+                    </div>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+
+                    <div class="form-group mb-3">
+                        <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="ConfirmPassword"></label>
+                        <input class="form-control" asp-for="ConfirmPassword" autocomplete="off"
+                               placeholder="Confirm password" />
+                    </div>
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-danger btn-sm shadow-sm">
+                            <span class="fa fa-key"></span>
+                            Recover account
+                        </button>
+                        <a class="btn btn-outline-danger btn-sm" asp-action="Login" asp-controller="Account">
+                            Cancel
+                        </a>
+                    </div>
+
+                </form>
+            }
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\MESHACK\Desktop\New folder</_PublishTargetUrl>
+    <History>True|2023-10-24T11:58:12.4619880Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="AppDbConnection">
+      <Value>Server=196.255.224.110%3bDatabase=2018477634%3bUser Id=2018477634%3bPassword=+++Meshack.Mla65264364%3bTrustServerCertificate=True%3bMultipleActiveResultSets=True</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="UserDbConnection">
+      <Value>Server=196.255.224.110%3bDatabase=2018477634%3bUser Id=2018477634%3bPassword=+++Meshack.Mla65264364%3bTrustServerCertificate=True%3bMultipleActiveResultSets=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

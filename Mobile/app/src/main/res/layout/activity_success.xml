@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.book.SuccessActivity">
+
+    <TextView
+        android:id="@+id/txtPSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/hind"
+        android:text="Booking Success"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#1D9F24"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imgSuccess"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/txtPSuccess"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:src="@drawable/paymentsuccess" />
+
+    <TextView
+        android:id="@+id/txtBookingSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgSuccess"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp"
+        android:fontFamily="@font/hind"
+        android:text="Booking was successful, use this booking pass at the entrance"
+        android:textAlignment="center"
+        android:textColor="#3B713D"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtSuccessPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBookingSuccess"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/hind"
+        android:text="mob-0000-0"
+        android:textAlignment="center"
+        android:textColor="#254927"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnSuccessReturnToHomePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSuccessPass"
+        android:layout_marginTop="25dp"
+        android:text="Return to facilities" />
+
+</RelativeLayout>

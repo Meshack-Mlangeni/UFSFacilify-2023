@@ -1,0 +1,50 @@
+﻿@model Booking
+@{
+    ViewBag.Title = "Facilify - Make a booking";
+}
+
+
+<main>
+    <div class="mt-4 mb-4">
+        <h4 class="mt-3">Book a facility <span class="text-muted">| @ViewBag.Facility.Name</span> </h4>
+        <h2>Facility price: <span class="text-muted">R @ViewBag.Facility.Price.ToString("0.00")</span></h2>
+    </div>
+    <form asp-action="Book" asp-controller="Booking" method="post">
+        <input asp-for="Approved" type="hidden"/>
+        <input asp-for="IsValid" type="hidden" />
+        <input asp-for="DateEnd" type="hidden" />
+        <input asp-for="FacilityId" type="hidden" />
+        <input asp-for="UserEmail" type="hidden" />
+
+        <div class="text-danger" asp-validation-summary="All"></div>
+        <div class="form-group mb-3">
+            <div class="d-flex justify-content-between">
+                <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="CategoryId"></label>
+                <small class="text-muted">Each category belongs to a specific facility</small>
+            </div>
+            <select asp-for="CategoryId" class="form-select form-select-sm" asp-items="@ViewBag.Categories">
+                <option value="">---Select category---</option>
+            </select>
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="DateStart"></label>
+            <input class="form-control" value="@DateTime.Now" asp-for="DateStart" />
+        </div>
+        <div>
+            <h6 class="text-danger">All bookings will be valid for 30 minutes.</h6>
+        </div>
+
+        <div class="text-center mt-3">
+            <button type="submit" class="btn btn-dark btn-sm shadow-sm">
+                <span class="fa fa-plus"></span>
+                Proceed to checkout
+            </button>
+            <br /><br />
+            <a asp-action="Facility" asp-controller="Home">
+                Cancel
+            </a>
+
+        </div>
+    </form>
+</main>

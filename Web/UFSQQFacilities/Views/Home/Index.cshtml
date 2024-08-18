@@ -1,0 +1,362 @@
+﻿@model NavigationViewModel
+@{
+    ViewBag.Title = "Facilify - Home";
+}
+
+
+<main>
+    <div class="mt-4">
+
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-danger alert-dismissible">
+                <button class="btn-close" aria-label="Close" data-bs-dismiss="alert"></button>
+                @TempData["Message"]
+            </div>
+        }
+
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            @if (User.IsInRole("Administrator") == false && User.IsInRole("Manager") == false)
+            {
+                <div class="row mt-4">
+                    <div class="col-lg-4">
+                        <div class="card m-2 bg-danger-subtle shadow-sm">
+                            <div class="card-body">
+                                <div class="justify-content-center text-center">
+                                    <img src="/images/avatar.png" style="height:64px;" alt="avatar image" class="rounded-circle mb-3 img-fluid">
+                                </div>
+                                <h5 class="card-title text-uppercase text-center">
+                                    @Model.user.FirstName @Model.user.LastName
+                                </h5>
+                                <h6 class="text-muted mt-0 text-center">
+                                    @Model.user.Email
+                                </h6>
+                                <br />
+
+                                <div class="text-center row">
+                                    <div class="col-4">
+                                        <a class="text-dark position-relative">
+                                            <span class="fas fa-fingerprint fa-lg"></span>
+                                        </a>
+                                        <h6 style="font-size:small;" class="mt-1">
+                                            @(
+                                                Model.user.StudentStaffNumber ?? Model.user.IdPassportNumber ?? "Administrator"
+                                                )
+                                        </h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <a class="text-dark position-relative">
+                                            <span class="fas fa-user-group fa-lg"></span>
+                                        </a>
+                                        <h6 style="font-size:small;" class="mt-1">
+                                            @(
+                                                Model.user.StudentStaffNumber != null ? "Student/Staff" :
+                                                Model.user.IdPassportNumber != null ? "Visitor" : "Administrator"
+                                                )
+                                        </h6>
+                                    </div>
+                                    <div class="col-4">
+                                        <a asp-action="Notifications" asp-controller="Home" class="text-dark position-relative">
+                                            <span class="fas fa-envelope fa-lg @(Model.Notifications.Where(n => !n.IsRead).Count() > 0 ? "fa-beat-fade" : "")"></span>
+                                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                                @Model.Notifications.Where(n => !n.IsRead).Count()
+                                            </span>
+                                        </a>
+                                        <h6 style="font-size:small;" class="mt-1">Notifications</h6>
+                                    </div>
+                                </div>
+                                <br>
+
+                                @{
+                                    Facility incharge_facility = Model.Wrapper.FacilityRepository.FindAll().FirstOrDefault(f => f.SecurityEmail.ToLower() == Model.user.Email.ToLower());
+                                }
+
+                                @if (User.IsInRole("Incharge"))
+                                {
+                                    if (incharge_facility != null)
+                                    {
+                                        <h6 class="fw-bolder text-muted text-center">You are in charge of the @(incharge_facility.Name ?? string.Empty) facility</h6>
+                                        <h6 class="card-subtitle text-muted ms-3 mt-1"><i class="fa fa-money-bill"></i>&nbsp;&nbsp;Price: <b>R @incharge_facility.Price.ToString("0.00")</b></h6>
+                                        <h6 class="card-subtitle text-muted ms-3 mt-2"><i class="fa fa-building"></i>&nbsp;&nbsp;&nbsp; Space: <b>@incharge_facility.Space</b></h6>
+                                    }
+                                    else
+                                    {
+                                        <h6 class="text-danger">Could not find the facility you are incharge of, please contact the manager.</h6>
+                                    }
+                                }
+
+                                <div class="justify-content-center mt-2 text-center">
+                                    <a asp-action="Edit" asp-route-id="@Model.user.Id" asp-controller="Account" class="btn btn-dark btn-sm">Manage profile</a>
+                                    @if (User.IsInRole("Incharge"))
+                                    {
+                                        <a asp-action="ChangeStatus" asp-controller="Incharge" asp-route-id="@incharge_facility.FacilityId"
+                                           class="btn btn-outline-danger btn-sm">Change status</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-action="BookingHistory" asp-controller="Home" class="btn btn-outline-danger btn-sm">Booking history</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        @if (User.IsInRole("User"))
+                        {
+                            @if (Model.Bookings.Where(b => b.DateEnd > DateTime.Now).OrderBy(d => d.DateStart).Count() == 0)
+                            {
+                                <div class="row text-center justify-content-center">
+                                    <h4 class="mt-2 ms-2">You have no upcoming booking(s)<span class="text-muted"></span></h4>
+                                    <img class="img-fluid" src="/images/emptypage.png" style="max-height: 400px; max-width: 400px;" />
+                                </div>
+                            }
+                            else
+                            {
+                                <h4 class="mt-2 ms-2">Upcoming booking(s)</h4>
+                                <div class="row">
+
+                                    @foreach (var booking in Model.Bookings.Where(b => b.DateEnd > DateTime.Now).OrderBy(d => d.DateStart))
+                                    {
+                                        Facility _booking = Model.Wrapper.FacilityRepository.FindById(booking.FacilityId);
+                                        Category _category = Model.Wrapper.CategoryRepository.FindById(booking.CategoryId);
+                                        if (_category != null && _booking != null)
+                                        {
+                                            <div class="col-sm-12">
+                                                <div id="card-trans-home" class="card m-2
+                                            @(booking.Approved ? "bg-success-subtle" : "bg-danger-subtle") shadow-sm">
+                                                    <div class="card-body">
+                                                        <div class="d-flex justify-content-between">
+                                                            <h5 class="card-title">
+                                                                <span class="fa fa-building"></span> @_booking.Name
+                                                                <span class=" @(booking.Approved ? "text-success-emphasis"
+                                                                : "text-danger-emphasis")"> | @(_category.CategoryName ?? "No name")</span>
+                                                            </h5>
+                                                            <h5 class="card-subtitle text-muted fw-bolder">@booking.BookingPass</h5>
+                                                        </div>
+                                                        <h6 class="card-subtitle mb-2 mt-1 text-muted">@booking.DateStart.ToLongDateString()</h6>
+                                                        <h6 class="card-subtitle mb-2 text-muted fw-bolder">@booking.DateStart.ToShortTimeString() - @booking.DateEnd.ToShortTimeString()</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                            }
+                        }
+                        else
+                        {
+
+                            @if (Model.Bookings.Where(b => b.DateEnd.Date > DateTime.Now.Date && b.Facilities.SecurityEmail == Model.user.Email).Count() == 0)
+                            {
+                                <div class="row text-center justify-content-center">
+                                    <h4 class="mt-2 ms-2">There are no upcoming booking(s) for your facility<span class="text-muted"></span></h4>
+                                    <img class="img-fluid" src="/images/emptypage.png" style="max-height: 400px; max-width: 400px;" />
+                                </div>
+                            }
+                            else
+                            {
+                                <h4 class="mt-2 ms-2">Upcoming user booking(s)</h4>
+                                <div class="row">
+
+                                    @foreach (var booking in Model.Bookings.Where(b => b.DateEnd.Date > DateTime.Now.Date && b.Facilities.SecurityEmail == Model.user.Email).OrderBy(d => d.DateStart))
+                                    {
+                                        Facility _booking = Model.Wrapper.FacilityRepository.FindById(booking.FacilityId);
+                                        Category _category = Model.Wrapper.CategoryRepository.FindById(booking.CategoryId);
+                                        if (_category != null && _booking != null)
+                                        {
+                                            <div class="col-sm-12">
+                                                <div id="card-trans-home" class="card m-2
+                                            @(booking.Approved ? "bg-success-subtle" : "bg-danger-subtle") shadow-sm">
+                                                    <div class="card-body">
+                                                        <div class="d-flex justify-content-between">
+                                                            <h5 class="card-title">
+                                                                <span class="fa fa-building"></span> @_booking.Name
+                                                                <span class=" @(booking.Approved ? "text-success-emphasis"
+                                                                : "text-danger-emphasis")"> | @(_category.CategoryName ?? "No name")</span>
+                                                            </h5>
+                                                            <h5 class="card-subtitle text-muted fw-bolder">@booking.BookingPass</h5>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between">
+                                                            <h6 class="card-subtitle mb-2 text-muted">
+                                                                @booking.DateStart.Date.ToShortDateString()
+                                                                <span> | @booking.DateStart.ToShortTimeString() - @booking.DateEnd.ToShortTimeString()</span>
+                                                            </h6>
+                                                            <h5 class="card-subtitle text-muted">@booking.UserEmail</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                            }
+                        }
+                    </div>
+
+                </div>
+            }
+            else
+            {
+                <h4>CONTROL PANEL</h4>
+                <br />
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div id="card-trans-home" class="card m-2 shadow-sm bg-light">
+                            <a asp-action="Facilities" asp-controller="Home" class="text-decoration-none text-dark">
+                                <div class="card-body">
+                                    <div class="text-center mt-3">
+                                        <i class="fa fa-edit fa-2xl"></i>
+                                        <br />
+                                        <h5 class="card-title mt-4">
+                                            Manage facilities
+                                        </h5>
+
+                                        <h6 class="card-subtitle mt-3 mb-2 text-muted">
+                                            <span class="fa fa-question-circle"></span>
+                                            Edit or delete facility space.
+                                        </h6>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div id="card-trans-home" class="card m-2 shadow-sm bg-light">
+                            <a asp-action="BookingHistory" asp-controller="Home" class="text-decoration-none text-dark">
+                                <div class="card-body">
+                                    <div class="text-center mt-3">
+                                        <i class="fa fa-credit-card fa-2xl"></i>
+                                        <br />
+                                        <h5 class="card-title mt-4">
+                                            Booking history
+                                        </h5>
+
+                                        <h6 class="card-subtitle mt-3 mb-2 text-muted">
+                                            <span class="fa fa-question-circle"></span>
+                                            See all application user booking history.
+                                        </h6>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    @if (User.IsInRole("Administrator"))
+                    {
+                        <div class="col-lg-3">
+                            <div id="card-trans-home" class="card m-2 shadow-sm bg-light">
+                                <a asp-action="Users" asp-controller="Admin" class="text-decoration-none text-dark">
+                                    <div class="card-body">
+                                        <div class="text-center mt-3">
+                                            <i class="fa fa-user-group fa-2xl"></i>
+                                            <br />
+                                            <h5 class="card-title mt-4">
+                                                View users
+                                            </h5>
+
+                                            <h6 class="card-subtitle mt-3 mb-2 text-muted">
+                                                <span class="fa fa-question-circle"></span>
+                                                See and manage all application users.
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3">
+                            <div id="card-trans-home" class="card m-2 shadow-sm bg-light">
+                                <a asp-action="GenerateReport" asp-controller="Admin" class="text-decoration-none text-dark">
+                                    <div class="card-body">
+                                        <div class="text-center mt-3">
+                                            <i class="fa fa-file-pdf fa-2xl"></i>
+                                            <br />
+                                            <h5 class="card-title mt-4">
+                                                Generate report
+                                            </h5>
+
+                                            <h6 class="card-subtitle mt-3 mb-2 text-muted">
+                                                <span class="fa fa-question-circle"></span>
+                                                Summarize application report in a PDF file.
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-lg-3">
+                            <div id="card-trans-home" class="card m-2 shadow-sm bg-light">
+                                <a asp-action="Incharge" asp-controller="Manager" class="text-decoration-none text-dark">
+                                    <div class="card-body">
+                                        <div class="text-center mt-3">
+                                            <i class="fa fa-user-group fa-2xl"></i>
+                                            <br />
+                                            <h5 class="card-title mt-4">
+                                                Manage securities
+                                            </h5>
+
+                                            <h6 class="card-subtitle mt-3 mb-2 text-muted">
+                                                <span class="fa fa-question-circle"></span>
+                                                See and manage all Incharge(s).
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div id="card-trans-home" class="card m-2 shadow-sm bg-light">
+                                <a asp-action="Transactions" asp-controller="Manager" class="text-decoration-none text-dark">
+                                    <div class="card-body">
+                                        <div class="text-center mt-3">
+                                            <i class="fa fa-file-invoice fa-2xl"></i>
+                                            <br />
+                                            <h5 class="card-title mt-4">
+                                                Transactions
+                                            </h5>
+
+                                            <h6 class="card-subtitle mt-3 mb-2 text-muted">
+                                                <span class="fa fa-question-circle"></span>
+                                                See all online payment transactions.
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3">
+                            <div id="card-trans-home" class="card m-2 shadow-sm bg-light">
+                                <a asp-action="Reviews" asp-controller="Manager" class="text-decoration-none text-dark">
+                                    <div class="card-body">
+                                        <div class="text-center mt-3">
+                                            <i class="fa fa-star-half-stroke fa-2xl"></i>
+                                            <br />
+                                            <h5 class="card-title mt-4">
+                                                See facility ratings
+                                            </h5>
+
+                                            <h6 class="card-subtitle mt-3 mb-2 text-muted">
+                                                <span class="fa fa-question-circle"></span>
+                                                See all ratings made by users.
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        }
+    </div>
+</main>

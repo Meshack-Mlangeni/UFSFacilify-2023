@@ -1,0 +1,101 @@
+﻿@model EditViewModel
+@{
+    ViewBag.Title = "Facilify - Edit";
+}
+
+
+<main>
+    <div class="mt-4 mb-4">
+        <h4>Manage profile</h4>
+    </div>
+
+    <div class="text-danger mt-3" asp-validation-summary="All"></div>
+
+    @if (User.Identity.IsAuthenticated && User.IsInRole("Administrator"))
+    {
+        @if (ViewBag.isManager)
+        {
+            <div class="ps-5 pe-5 mt-2">
+                <h5>User is assigned to the Facility management role</h5>
+                <a class="btn btn-danger btn-sm" asp-action="RemoveManager"
+           asp-controller="Admin" asp-route-id="@Model.Id">Remove from management role</a>
+            </div>
+        }
+        else
+        {
+            <div class="ps-3 pe-3 mt-2">
+                <h5>User is not assigned to any Facility management role</h5>
+                <a class="btn btn-success btn-sm" asp-action="AddManager"
+           asp-controller="Admin" asp-route-id="@Model.Id">Add to management role</a>
+            </div>
+        }
+
+    }
+
+    <div class="m-5">
+        <form asp-action="Edit" asp-controller="Account" method="post">
+            <input asp-for="Id" type="hidden" />
+            <input asp-for="Username" type="hidden" />
+            <input asp-for="Email" type="hidden" />
+
+            <div class="form-group mb-3">
+                <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="Email"></label>
+                <input class="form-control" asp-for="Email" autocomplete="off"
+                       placeholder="eg JohnJobe@email.com" disabled />
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="IdPassportNumber"></label>
+                <input class="form-control" asp-for="IdPassportNumber" autocomplete="off"
+                       placeholder="Enter Id or Passport number" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="StudentStaffNumber"></label>
+                <input class="form-control" asp-for="StudentStaffNumber" autocomplete="off"
+                       placeholder="Enter student or staff number" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="FirstName"></label>
+                <input class="form-control" asp-for="FirstName" autocomplete="off"
+                       placeholder="eg John" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="LastName"></label>
+                <input class="form-control" asp-for="LastName" autocomplete="off"
+                       placeholder="eg Jobe" />
+            </div>
+
+
+            @if (User.Identity.IsAuthenticated && !User.IsInRole("Incharge"))
+            {
+                <div class="form-group mt-5 mb-2">
+                    <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="Password"></label>
+                    <input class="form-control" asp-for="Password" autocomplete="off"
+                           placeholder="Enter new password" />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="ConfirmPassword"></label>
+                    <input class="form-control" asp-for="ConfirmPassword" autocomplete="off"
+                           placeholder="Confirm password" />
+                </div>
+            }
+
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-dark btn-sm shadow-sm">
+                    <span class="fa fa-edit"></span>
+                    Update account
+                </button>
+                <br /><br />
+                <a asp-action="Index" asp-controller="Home">
+                    Return to homepage
+                </a>
+
+            </div>
+
+        </form>
+    </div>
+</main>

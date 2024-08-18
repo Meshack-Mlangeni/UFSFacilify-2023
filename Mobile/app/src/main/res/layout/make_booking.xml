@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.book.MakeBookingActivity">
+
+    <TextView
+        android:id="@+id/txtMakeBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Make booking"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/txtBookingDetails"
+        android:layout_below="@+id/txtMakeBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#4A0B15"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:text="Booking for" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnrTIlayout"
+        android:layout_below="@id/txtBookingDetails"
+        android:hint="Select category of equipment">
+
+        <AutoCompleteTextView
+            android:id="@+id/spnrCategoryType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+ <TableLayout
+     android:id="@+id/tlDate"
+     android:layout_width="match_parent"
+     android:layout_below="@id/spnrTIlayout"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="20dp">
+     <TableRow android:weightSum="10"          android:layout_marginBottom="8dp">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Select date:"
+             android:layout_gravity="center_vertical"
+             android:textStyle="bold"
+             android:textColor="@color/purple_200"
+             android:textSize="16sp"
+             android:layout_weight="2"/>
+         <TextView
+             android:id="@+id/txtDateDialog"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="DD/MM/YYYY"
+             android:layout_gravity="center_vertical"
+             android:textColor="@color/black"
+             android:textSize="16sp"
+             android:layout_weight="6"/>
+         <TextView/>
+         <ImageButton
+             android:id="@+id/btnSelectDate"
+             android:layout_width="64dp"
+             android:layout_height="48dp"
+             android:src="@drawable/_calender"
+             android:layout_weight="2"/>
+     </TableRow>
+     <TableRow android:weightSum="10">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Select time:"
+             android:layout_gravity="center_vertical"
+             android:textStyle="bold"
+             android:textColor="@color/purple_200"
+             android:textSize="16sp"
+             android:layout_weight="2"/>
+         <TextView
+             android:id="@+id/txtTimeDialog"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="HH:MM"
+             android:layout_gravity="center_vertical"
+             android:textColor="@color/black"
+             android:textSize="16sp"
+             android:layout_weight="6"/>
+         <TextView/>
+         <ImageButton
+             android:id="@+id/btnSelectTime"
+             android:layout_width="64dp"
+             android:layout_height="48dp"
+             android:src="@drawable/_time"
+             android:layout_weight="2"/>
+     </TableRow>
+ </TableLayout>
+    <TextView
+        android:id="@+id/txtMakeBookingInfo"
+        android:layout_below="@id/tlDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Booking will be valid for a period of 30 from the booking time."
+        android:textColor="#B6B6B6"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgStripe"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/btnPayOnline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="Pay online" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <Button
+            android:id="@+id/btnPayAtEntrance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:backgroundTint="#B19196"
+            android:text="Pay at the entrance"
+            android:textColor="@color/purple_200" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgStripe"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/poweredbystripe" />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAj0cefQeExkK5PC1ZUVXZdgAAAAACAAAAAAAQZgAAAAEAACAAAABXZzpqaTZYvGIbMGJweE/LNyKgnSvKkVdbbFpt4rxnGgAAAAAOgAAAAAIAACAAAADviY3tNZw0gNfY066lKaWF0qqSmACwi7l0l0YLF7lpYSAAAAA9s7m307lNNDAUBd6IuIwRNjvJKSI2g1Dg3TRifsycJEAAAAARJe+8kTcEJJazkC46A2WeqULdg0NZ08EhizHriPjOKSmwEcdpo3ctV5gYsJMW5LTohr/aAkqRjOF9vZFt6FX7</EncryptedPassword>
+    <History>True|2023-10-25T18:23:57.4423762Z;True|2023-10-25T12:15:12.7993347+02:00;True|2023-10-25T11:42:23.3327461+02:00;False|2023-10-25T11:40:09.7297492+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="AppDbConnection">
+      <Value>Server=SQL5054.site4now.net%3bDatabase=db_aa033c_meshackm%3bUser Id=db_aa033c_meshackm_admin%3bPassword=%40Meshack123%3bTrustServerCertificate=True%3bMultipleActiveResultSets=True</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="UserDbConnection">
+      <Value>Server=SQL5054.site4now.net%3bDatabase=db_aa033c_meshackm%3bUser Id=db_aa033c_meshackm_admin%3bPassword=%40Meshack123%3bTrustServerCertificate=True%3bMultipleActiveResultSets=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

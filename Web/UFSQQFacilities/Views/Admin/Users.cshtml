@@ -1,0 +1,109 @@
+﻿@model UserListViewModel
+@{
+    string usertype = Model.type;
+    string selected_item(string type) => usertype == type ? "active" : "";
+}
+
+
+<main>
+    <div class="mt-4">
+
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success alert-dismissible" role="alert">
+                <button type="button" class="btn-close"
+                        data-bs-dismiss="alert" aria-label="Close">
+                </button>
+                @TempData["Message"]
+            </div>
+        }
+
+        <div class="text-center list-group list-group-horizontal-sm">
+            <a asp-action="Users" asp-controller="Admin" asp-route-type="all"
+               class="list-group-item list-group-item-danger @selected_item("all")">All users</a>
+
+            @if (!User.IsInRole("Manager"))
+            {
+                <a asp-action="Users" asp-controller="Admin" asp-route-type="managers"
+                   class="list-group-item list-group-item-danger @selected_item("managers")">Managers</a>
+            }
+            <a asp-action="Users" asp-controller="Admin" asp-route-type="incharge"
+               class="list-group-item list-group-item-danger @selected_item("incharge")">In-charges</a>
+        </div>
+
+        <br />
+
+        <h4>
+            @(usertype == "all" ? "All Users" :
+                usertype == "managers" ? "Managers" : "Securities")
+        </h4>
+
+        @if (Model.Users.Count() > 0)
+        {
+            <br />
+
+            <table class="table table-danger table-striped table-bordered table-hover table-sm shadow-sm">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Student/Id/Staff number</th>
+                        <th>Date joined</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model.Users)
+                    {
+                        <tr>
+                            <td>
+                                @user.FirstName @user.LastName
+                                @if (Model.Managers.Any(u => u.Id == user.Id))
+                                {
+                                    <span class="badge bg-danger">Manager</span>
+                                }
+                            </td>
+                            <td>@(user.StudentStaffNumber ?? user.IdPassportNumber)</td>
+                            <td>@user.DateJoined.ToShortDateString()</td>
+                            <td>
+                                @if (User.IsInRole("Administrator"))
+                                {
+                                    <form asp-action="Delete" asp-controller="Admin" asp-route-id="@user.Id" method="get">
+                                        <a class="btn btn-sm btn-warning" asp-action="Edit" asp-controller="Account"
+                               asp-route-id="@user.Id">
+                                            <span class="fa fa-edit"></span>
+                                        </a>
+
+                                        <button onclick="return confirm('Are you sure you want to delete user?');"
+                                                type="submit" class="btn btn-sm btn-danger">
+                                            <span class="fa fa-trash-alt"></span>
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <a class="btn btn-sm btn-warning" asp-action="Incharge" asp-controller="Manager"
+                           asp-route-id="@user.Id">
+                                        <span class="fa fa-edit"></span>
+                                    </a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div page-info="@Model.PageInfo" page-action="Users"
+             page-classes-enabled="true"
+             page-class="btn" page-class-normal="btn-secondary"
+             page-class-selected="btn-danger" class="btn-group pull-right m-1">
+            </div>
+
+        }
+        else
+        {
+            <br />
+            <h3 class="text-danger">No users found</h3>
+        }
+
+    </div>
+</main>

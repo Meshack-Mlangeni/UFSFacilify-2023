@@ -1,0 +1,23 @@
+﻿@model Booking
+@{
+    ViewBag.Title = "Facilify - Booking success";
+}
+
+
+<main>
+    <div class="mt-4 mb-4">
+        <div class="text-center">
+
+            <img class="img-fluid" style="height:300px;" src="/images/paymentsuccess.png" />
+
+            <h1 class="display-3">Success</h1>
+            <h6>Booking for @Model.UserEmail was a success use the below temporal booking pass to access the facility at the entrance.</h6>
+            <br />
+            <h2 class="text-success-emphasis">@Model.BookingPass</h2>
+            <br />
+            <a asp-action="Index" asp-controller="Home" class="btn btn-success btn-sm">Return to homepage</a>
+            <a asp-action="Review" asp-controller="Home" asp-route-id="@Model.FacilityId"
+               class="card-link btn btn-dark-outline btn-sm">Rate facility</a>
+        </div>
+    </div>
+</main>

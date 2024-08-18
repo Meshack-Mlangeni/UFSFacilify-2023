@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtDBookings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discover Facilities"
+        android:textColor="@color/purple_200"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lstFacilities"
+        android:layout_below="@id/txtDBookings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="64dp"/>
+
+    <ImageView
+        android:id="@+id/imgNothing"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/upcoming"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btnAdminCreatefaciliy"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/hind"
+        android:shadowColor="@color/white"
+        android:text="Create new facility"
+        android:textAllCaps="false"
+        app:icon="@drawable/_add"
+        android:textColor="@color/white"
+        app:iconTint="@color/white"
+        app:backgroundTint="#FF5252" />
+    
+
+</RelativeLayout>

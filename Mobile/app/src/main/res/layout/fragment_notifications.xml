@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.notifications.NotificationFragment">
+
+    <TextView
+        android:id="@+id/txtDNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textColor="@color/purple_200"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lstNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtDNotifications"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="64dp" />
+
+    <ImageView
+        android:id="@+id/imgNoNotification"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_below="@id/txtDNotifications"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/no_notifications"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

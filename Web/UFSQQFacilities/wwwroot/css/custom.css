@@ -1,0 +1,66 @@
+﻿
+body, html {
+    background-color: rgb(245,245,245);
+}
+
+
+div#register-panel {
+    background: rgb(15,32,75);
+    background: linear-gradient(45deg, rgba(15,32,75,1) 0%,rgba(167,26,48,1) 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.header-img {
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url('../images/qwaqwacampusalbertluthuliamphitheatre.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+div > span {
+    font-size: smaller;
+}
+
+.dropdown-menu {
+    min-width: 200px; /* Adjust the width value as per your requirements */
+}
+
+.admin-panel {
+}
+
+
+    .admin-panel :hover {
+        background-color: grey;
+        transition: ease-in 1s;
+    }
+
+.fil {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+div#card-trans {
+    min-height: 300px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s, box-shadow 0.2s;
+    transition: ease-in transform 0.1s, color 0.2s;
+}
+
+    div#card-trans:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    }
+
+div#card-trans-home {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s, box-shadow 0.2s;
+    transition: ease-in transform 0.1s, color 0.2s;
+}
+
+    div#card-trans-home:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    }

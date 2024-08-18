@@ -1,0 +1,135 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UFSQQFacilities
+build_property.RootNamespace = UFSQQFacilities
+build_property.ProjectDir = C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Account/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Account/Recovery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWNvdmVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Admin/AddFacility.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRmFjaWxpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Admin/GenerateReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2VuZXJhdGVSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Admin/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Booking/Book.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Booking/Cancel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDYW5jZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Booking/ConfirmPaymentOption.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xDb25maXJtUGF5bWVudE9wdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Booking/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Home/BookingHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCb29raW5nSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Home/Facilities.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGYWNpbGl0aWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Home/Notifications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb3RpZmljYXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Home/Review.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Incharge/ChangeStatus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaGFyZ2VcQ2hhbmdlU3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Manager/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Manager/FacilityBookings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxGYWNpbGl0eUJvb2tpbmdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Manager/Incharge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxJbmNoYXJnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Manager/Reviews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxSZXZpZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Manager/Transactions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxUcmFuc2FjdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Shared/Components/Navigation/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2aWdhdGlvblxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Seed/UFSQQFacilities - Copy_20Sept/UFSQQFacilities/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

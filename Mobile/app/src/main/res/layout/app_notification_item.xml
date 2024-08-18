@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/_notification_icon"/>
+
+
+    <TextView
+        android:id="@+id/txtNotificationText"
+        android:layout_marginStart="8dp"
+        android:padding="16dp"
+        android:singleLine="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_image_shape"
+        android:fontFamily="@font/hind"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

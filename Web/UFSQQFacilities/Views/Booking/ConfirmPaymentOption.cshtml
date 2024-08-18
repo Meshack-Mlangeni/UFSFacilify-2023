@@ -1,0 +1,52 @@
+﻿@model Booking
+@{
+    ViewBag.Title = "Facilify - Payment options";
+}
+
+
+<main>
+    <div class="mt-4">
+        <h4 class="mt-2 fw-bold">Payment for booking: </h4>
+        <h6>Username      : @User.Identity.Name</h6>
+        <h6>Email address : @Model.UserEmail</h6>
+        <h6>Starting (From - To) : @Model.DateStart - @Model.DateEnd</h6>
+
+        <br />
+
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="card mb-3" style="max-width: 100vw;">
+                    <div class="card-body">
+                        <h5 class="card-title">Pay cash at the entrance</h5>
+                        <h6 class="mt-4 fw-bold">Facility      : @ViewBag.Facility.Name</h6>
+                        <h6 class="fw-bold">Equipment booked: @ViewBag.Category</h6>
+                        <h6 class="fw-bold">Total cost: R @ViewBag.Facility.Price.ToString("0.00")</h6>
+                        <a class="btn btn-dark mt-3" asp-action="Success" asp-route-id="@Model.BookingId" 
+                        asp-route-approved="@false" asp-controller="Booking">Continue process order</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 justify-content-center">
+                <h3 class="text-center">OR</h3>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="card mb-3" style="max-width: 100vw;">
+                    <div class="row">
+                        <img src="/images/stripe.png" class="img-fluid rounded-start" alt="Stripe image">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h5 class="card-title">Securely pay online <span class="text-muted"> | Powered by stripe&reg; </span></h5>
+                            <h6 class="mt-4 fw-bold">Facility      : @ViewBag.Facility.Name</h6>
+                            <h6 class="fw-bold">Equipment booked: @ViewBag.Category</h6>
+                            <h6 class="fw-bold">Total cost: R @ViewBag.Facility.Price.ToString("0.00")</h6>
+                            <a class="btn btn-dark mt-3" asp-action="CheckOut" asp-route-id="@Model.BookingId" asp-controller="Booking">Proceed to checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

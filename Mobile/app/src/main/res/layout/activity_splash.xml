@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/splash_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".SplashActivity"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:id="@+id/logo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="5dp">
+
+
+        <ImageView
+            android:id="@+id/splash_img"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/main_icon" />
+
+
+        <TextView
+            android:id="@+id/txtSplash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/hind"
+            android:text="F A C I L I F Y"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_layout"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/hind"
+            android:text="Welcome, login to your account"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="23sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <EditText
+                android:id="@+id/txtLoginEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EDEDED"
+                android:hint="Email"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:endIconMode="password_toggle">
+
+            <EditText
+                android:id="@+id/txtLoginPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EDEDED"
+                android:hint="Password"
+                android:importantForAutofill="no"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/btnLoginRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Don't have an account?, register"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/registerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/logo_layout"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:scrollbars="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/hind"
+                android:text="Hello, create a new account"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+
+            <RadioGroup
+                android:id="@+id/rdoGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rdoStudentStaff"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/radio_selector"
+                    android:button="@android:color/transparent"
+                    android:checked="true"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:text="Student/staff"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/rdoVisitor"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/radio_selector"
+                    android:button="@android:color/transparent"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:text="Visitor"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+            </RadioGroup>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:id="@+id/txtRegisterFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#EDEDED"
+                    android:hint="@string/login_first_name"
+                    android:importantForAutofill="no"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:id="@+id/txtRegisterLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#EDEDED"
+                    android:hint="Last name"
+                    android:importantForAutofill="no"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:id="@+id/txtRegisterIdNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#EDEDED"
+                    android:hint="Identity Number"
+                    android:importantForAutofill="no"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:id="@+id/txtRegisterStudentStaffNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#EDEDED"
+                    android:hint="Student number"
+                    android:importantForAutofill="no"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:id="@+id/txtRegisterEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#EDEDED"
+                    android:hint="Email"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:id="@+id/txtRegisterPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#EDEDED"
+                    android:hint="Password"
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:id="@+id/txtConfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#EDEDED"
+                    android:hint="Confirm password"
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Register" />
+
+            <Button
+                android:id="@+id/btnGoToLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Have an account? login"
+                android:textColor="@color/black"
+                android:layout_marginBottom="32dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/no_connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_layout"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imgNoBooking"
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:layout_gravity="center"
+            android:importantForAccessibility="no"
+            android:src="@drawable/_no_connection" />
+
+        <TextView
+            android:id="@+id/txtNoBookings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/hind"
+            android:paddingTop="16dp"
+            android:text="Please enable internet connection"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="Retry" />
+    </LinearLayout>
+
+</RelativeLayout>

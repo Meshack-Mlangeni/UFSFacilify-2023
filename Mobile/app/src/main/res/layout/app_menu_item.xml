@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        >
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="16dp"
+            android:id="@+id/app_menu_r_layout"
+            android:elevation="4dp"
+            android:background="#E17373"
+            >
+
+
+            <TextView
+                android:id="@+id/txtBookingFacilityName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/hind"
+                android:text="Facility Name"
+                android:textColor="?android:attr/statusBarColor"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtBookingCategoryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtBookingFacilityName"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/hind"
+                android:text="Category Name"
+                android:textColor="#E6FFFFFF"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtBookingCategoryName"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/hind"
+                android:text="00/00/23"
+                android:textColor="#E9E9EA"
+                android:textStyle="bold" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDate"
+                android:layout_alignParentEnd="true">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipBookingPass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:fontFamily="@font/hind"
+                    android:text="UFS-0000AA"
+                    android:textColor="@color/white"
+                    app:chipBackgroundColor="#A61930"
+                    app:chipIconEnabled="true"
+                    app:chipIconTint="#FEFEFE"
+                    app:chipIconVisible="true"
+                    app:chipStartPadding="10dp" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipFromTo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:fontFamily="@font/hind"
+                    android:text=" 10h00 - 10h30"
+                    android:textColor="@color/white"
+                    app:chipBackgroundColor="#A61930"
+                    app:chipIcon="@drawable/_time"
+                    app:chipIconEnabled="true"
+                    app:chipIconTint="#FEFEFE"
+                    app:chipIconVisible="true"
+                    app:chipStartPadding="10dp" />
+
+            </com.google.android.material.chip.ChipGroup>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

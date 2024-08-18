@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="admin">
+        <item>View/Edit/Delete Users</item>
+        <item>View User Booking History</item>
+        <item>Generate report</item>
+    </array>
+
+    <array name="manager">
+        <item>View Facility In-charges</item>
+        <item>View User Booking History</item>
+        <item>See Transactions</item>
+        <item>See Reviews</item>
+    </array>
+</resources>

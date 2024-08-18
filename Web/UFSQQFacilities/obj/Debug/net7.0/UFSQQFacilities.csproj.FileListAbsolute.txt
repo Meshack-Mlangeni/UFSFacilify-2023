@@ -1,0 +1,839 @@
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\appsettings.json
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.exe
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.deps.json
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.runtimeconfig.json
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.pdb
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.AssemblyReference.cache
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfoInputs.cache
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfo.cs
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CoreCompileInputs.cache
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.UFSQQFacilities.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.build.UFSQQFacilities.props
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UFSQQFacilities.props
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UFSQQFacilities.props
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\scopedcss\bundle\UFSQQFacilities.styles.css
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\refint\UFSQQFacilities.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.pdb
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.genruntimeconfig.cache
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\ref\UFSQQFacilities.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\libman.json
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.staticwebassets.runtime.json
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Humanizer.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cache
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cs
+C:\Users\MESHACK\Desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CopyComplete
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\appsettings.Development.json
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\appsettings.json
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\libman.json
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.staticwebassets.runtime.json
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.exe
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.deps.json
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.runtimeconfig.json
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.pdb
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Azure.Core.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Azure.Identity.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Humanizer.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.CodeDom.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Memory.Data.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.AssemblyReference.cache
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfoInputs.cache
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfo.cs
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CoreCompileInputs.cache
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.MvcApplicationPartsAssemblyInfo.cache
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cache
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cs
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.UFSQQFacilities.Microsoft.AspNetCore.StaticWebAssets.props
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.build.UFSQQFacilities.props
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UFSQQFacilities.props
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UFSQQFacilities.props
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.pack.json
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.build.json
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.development.json
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\scopedcss\bundle\UFSQQFacilities.styles.css
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CopyComplete
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\refint\UFSQQFacilities.dll
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.pdb
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.genruntimeconfig.cache
+C:\desktop\Project\Web\UFSQQFacilities\UFSQQFacilities\obj\Debug\net7.0\ref\UFSQQFacilities.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\appsettings.Development.json
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\appsettings.json
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\libman.json
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.staticwebassets.runtime.json
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.exe
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.deps.json
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.runtimeconfig.json
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.pdb
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Azure.Core.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Azure.Identity.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Humanizer.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.CodeDom.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Memory.Data.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.AssemblyReference.cache
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfoInputs.cache
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfo.cs
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CoreCompileInputs.cache
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.MvcApplicationPartsAssemblyInfo.cache
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cache
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cs
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.UFSQQFacilities.Microsoft.AspNetCore.StaticWebAssets.props
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.build.UFSQQFacilities.props
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UFSQQFacilities.props
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UFSQQFacilities.props
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.pack.json
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.build.json
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.development.json
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\scopedcss\bundle\UFSQQFacilities.styles.css
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CopyComplete
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\refint\UFSQQFacilities.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.pdb
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.genruntimeconfig.cache
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\ref\UFSQQFacilities.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\FireSharp.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Threading.Tasks.Extensions.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Threading.Tasks.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Net.Http.Extensions.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Net.Http.Primitives.dll
+C:\desktop\Project\Web\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Newtonsoft.Json.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.AssemblyReference.cache
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.GeneratedMSBuildEditorConfig.editorconfig
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfoInputs.cache
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfo.cs
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CoreCompileInputs.cache
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.MvcApplicationPartsAssemblyInfo.cache
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cache
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cs
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\refint\UFSQQFacilities.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.pdb
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\appsettings.Development.json
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\appsettings.json
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\libman.json
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.staticwebassets.runtime.json
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.exe
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.deps.json
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.runtimeconfig.json
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.pdb
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Azure.Core.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Azure.Identity.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Humanizer.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\Mono.TextTemplating.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.CodeDom.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Drawing.Common.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Memory.Data.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Runtime.Caching.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Security.Permissions.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\System.Windows.Extensions.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.UFSQQFacilities.Microsoft.AspNetCore.StaticWebAssets.props
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.build.UFSQQFacilities.props
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UFSQQFacilities.props
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UFSQQFacilities.props
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.pack.json
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.build.json
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.development.json
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\scopedcss\bundle\UFSQQFacilities.styles.css
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CopyComplete
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.genruntimeconfig.cache
+T:\UFSQQFacilities - Copy\UFSQQFacilities\obj\Debug\net7.0\ref\UFSQQFacilities.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\appsettings.Development.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\appsettings.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\libman.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.staticwebassets.runtime.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.exe
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.deps.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.runtimeconfig.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.pdb
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Azure.Core.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Azure.Identity.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Humanizer.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.CodeDom.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.AssemblyReference.cache
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfoInputs.cache
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfo.cs
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CoreCompileInputs.cache
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.MvcApplicationPartsAssemblyInfo.cache
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cache
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cs
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.UFSQQFacilities.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.build.UFSQQFacilities.props
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UFSQQFacilities.props
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UFSQQFacilities.props
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.build.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.development.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\scopedcss\bundle\UFSQQFacilities.styles.css
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CopyComplete
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\refint\UFSQQFacilities.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.pdb
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.genruntimeconfig.cache
+C:\Files\Project\Web\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\ref\UFSQQFacilities.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\appsettings.Development.json
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\libman.json
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\appsettings.json
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.staticwebassets.runtime.json
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.exe
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.deps.json
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.runtimeconfig.json
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.pdb
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Azure.Core.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Azure.Identity.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Humanizer.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Mono.TextTemplating.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.CodeDom.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Drawing.Common.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Memory.Data.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Runtime.Caching.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Security.Permissions.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Windows.Extensions.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.AssemblyReference.cache
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.GeneratedMSBuildEditorConfig.editorconfig
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfoInputs.cache
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfo.cs
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CoreCompileInputs.cache
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.MvcApplicationPartsAssemblyInfo.cache
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cache
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cs
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.UFSQQFacilities.Microsoft.AspNetCore.StaticWebAssets.props
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.build.UFSQQFacilities.props
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UFSQQFacilities.props
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UFSQQFacilities.props
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.pack.json
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.build.json
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.development.json
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\scopedcss\bundle\UFSQQFacilities.styles.css
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CopyComplete
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\refint\UFSQQFacilities.dll
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.pdb
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.genruntimeconfig.cache
+T:\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\ref\UFSQQFacilities.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.AssemblyReference.cache
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfoInputs.cache
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfo.cs
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CoreCompileInputs.cache
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.MvcApplicationPartsAssemblyInfo.cache
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cache
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cs
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\refint\UFSQQFacilities.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.pdb
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\appsettings.Development.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\libman.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\appsettings.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.staticwebassets.runtime.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.exe
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.deps.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.runtimeconfig.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.pdb
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Azure.Core.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Azure.Identity.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Humanizer.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.CodeDom.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.UFSQQFacilities.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.build.UFSQQFacilities.props
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UFSQQFacilities.props
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UFSQQFacilities.props
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.build.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.development.json
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\scopedcss\bundle\UFSQQFacilities.styles.css
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CopyComplete
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.genruntimeconfig.cache
+C:\Files\Project\Web\UFSQQFacilities - Copy_20SeptP2\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\ref\UFSQQFacilities.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\appsettings.Development.json
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\appsettings.json
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\libman.json
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.staticwebassets.runtime.json
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.exe
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.deps.json
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.runtimeconfig.json
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.pdb
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Azure.Core.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Azure.Identity.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Humanizer.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Mono.TextTemplating.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.CodeDom.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Drawing.Common.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Memory.Data.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Runtime.Caching.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Security.Permissions.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Windows.Extensions.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.AssemblyReference.cache
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.GeneratedMSBuildEditorConfig.editorconfig
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfoInputs.cache
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfo.cs
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CoreCompileInputs.cache
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.MvcApplicationPartsAssemblyInfo.cache
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cache
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cs
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.UFSQQFacilities.Microsoft.AspNetCore.StaticWebAssets.props
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.build.UFSQQFacilities.props
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UFSQQFacilities.props
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UFSQQFacilities.props
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.pack.json
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.build.json
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.development.json
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\scopedcss\bundle\UFSQQFacilities.styles.css
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CopyComplete
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\refint\UFSQQFacilities.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.pdb
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.genruntimeconfig.cache
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\ref\UFSQQFacilities.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Newtonsoft.Json.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Stripe.net.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+T:\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.AssemblyReference.cache
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfoInputs.cache
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfo.cs
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CoreCompileInputs.cache
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.MvcApplicationPartsAssemblyInfo.cache
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cache
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cs
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\appsettings.Development.json
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\appsettings.json
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\libman.json
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.staticwebassets.runtime.json
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.exe
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.deps.json
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.runtimeconfig.json
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.pdb
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Azure.Core.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Azure.Identity.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Humanizer.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Stripe.net.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.CodeDom.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.UFSQQFacilities.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.build.UFSQQFacilities.props
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UFSQQFacilities.props
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UFSQQFacilities.props
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.build.json
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.development.json
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\scopedcss\bundle\UFSQQFacilities.styles.css
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CopyComplete
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\refint\UFSQQFacilities.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.pdb
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.genruntimeconfig.cache
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\ref\UFSQQFacilities.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Common.Logging.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Common.Logging.Core.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.barcodes.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.forms.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.io.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.kernel.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.layout.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.pdfa.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.sign.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.styledxmlparser.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.svg.dll
+C:\Files\Project\Web\UFSQQFacilities\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\appsettings.Development.json
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\libman.json
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\appsettings.json
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.staticwebassets.runtime.json
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.exe
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.deps.json
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.runtimeconfig.json
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\UFSQQFacilities.pdb
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Azure.Core.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Azure.Identity.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Common.Logging.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Common.Logging.Core.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Humanizer.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.barcodes.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.forms.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.io.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.kernel.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.layout.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.pdfa.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.sign.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.styledxmlparser.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\itext.svg.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\Stripe.net.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.CodeDom.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.AssemblyReference.cache
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfoInputs.cache
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.AssemblyInfo.cs
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.csproj.CoreCompileInputs.cache
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.MvcApplicationPartsAssemblyInfo.cache
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cache
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.RazorAssemblyInfo.cs
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.build.json
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.development.json
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.UFSQQFacilities.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.build.UFSQQFacilities.props
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UFSQQFacilities.props
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UFSQQFacilities.props
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\scopedcss\bundle\UFSQQFacilities.styles.css
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFac.A27E91AF.Up2Date
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\refint\UFSQQFacilities.dll
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.pdb
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\UFSQQFacilities.genruntimeconfig.cache
+C:\Seed\UFSQQFacilities - Copy_20Sept\UFSQQFacilities\obj\Debug\net7.0\ref\UFSQQFacilities.dll

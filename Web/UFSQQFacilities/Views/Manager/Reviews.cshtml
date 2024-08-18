@@ -1,0 +1,62 @@
+﻿@model FacilityViewModel
+@{
+    ViewBag.Title = "Facilify - Reviews";
+}
+
+
+<main>
+    <div class="mt-4 mb-4">
+        <h2 class="mt-3">Facility Reviews <span class="text-muted"> | @Model.SelectedFacility.Name</span></h2>
+       
+        <div class="text-center list-group list-group-horizontal-sm">
+            @foreach (var facility in Model.Facilities)
+            {
+                <a asp-action="Reviews" asp-controller="Manager" asp-route-id="@facility.FacilityId"
+                   class="list-group-item list-group-item-danger">@facility.Name</a>
+            }
+        </div>
+
+        <br />
+
+        @if (Model.SelectedFacility.Reviews.Count == 0)
+        {
+            <h3 class="text-danger">There are no reviews currently for this facility</h3>
+            <div class="mt-4 mb-4 p-5"></div>
+        }
+        else
+        {
+            <table class="table table-danger table-striped table-bordered table-hover table-sm shadow-sm">
+                <thead>
+                    <tr>
+                        <th>User email</th>
+                        <th>Comment</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var review in Model.SelectedFacility.Reviews.OrderByDescending(r => r.Rating))
+                    {
+
+                        <tr>
+                            <td>@review.UserEmail</td>
+                            <td>@review.Comment</td>
+                            <td>
+                                @for (int i = 0; i < 5; i++)
+                                {
+                                    if (i < review.Rating)
+                                    {
+                                        <span class="fa-solid fa-star"></span>
+                                    }
+                                    else
+                                    {
+                                        <span class="fa-regular fa-star"></span>
+                                    }
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</main>

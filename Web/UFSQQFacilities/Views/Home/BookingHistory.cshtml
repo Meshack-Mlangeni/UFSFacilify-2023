@@ -1,0 +1,82 @@
+﻿@model IQueryable<Booking>
+@{
+    ViewBag.Title = "Facilify - Booking History";
+}
+
+<main>
+    <div class="mt-4 mb-4">
+        <h2 class="text-muted">Booking History</h2>
+        <h2 class="lead">These are previous, current and upcoming bookings made to our facilities.</h2>
+        <br />
+        @if (Model.Count() > 0)
+        {
+            <h4>Approved bookings</h4>
+            <table class="table table-danger table-striped table-bordered table-hover table-sm shadow-sm">
+                <thead>
+                    <tr>
+                        <th>Facility</th>
+                        <th>Equipment</th>
+                        <th>User email</th>
+                        <th>Date booked</th>
+                        <th>Is valid</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var booking in Model.Where(b => b.Approved))
+                    {
+                        <tr>
+                            <td>@booking.Facilities.Name</td>
+                            <td>@booking.Categories.CategoryName</td>
+                            <td>@booking.UserEmail</td>
+                            <td>@booking.DateStart.ToShortDateString()</td>
+                            <td>@booking.IsValid</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <br />
+            <h4>Non-approved bookings</h4>
+            <table class="table table-danger table-striped table-bordered table-hover table-sm shadow-sm">
+                <thead>
+                    <tr>
+                        <th>Facility</th>
+                        <th>Equipment</th>
+                        <th>User email</th>
+                        <th>Date booked</th>
+                        <th>Is valid</th>
+                        @if (User.IsInRole("Manager"))
+                        {
+                            <th>Action</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var booking in Model.Where(b => !b.Approved))
+                    {
+                        <tr>
+                            <td>@booking.Facilities.Name</td>
+                            <td>@booking.Categories.CategoryName</td>
+                            <td>@booking.UserEmail</td>
+                            <td>@booking.DateStart.ToShortDateString()</td>
+                            <td>@booking.IsValid</td>
+                            @if (User.IsInRole("Manager"))
+                            {
+                                <td>
+                                    <form asp-action="BookingHistory" asp-controller="Home" asp-route-id="@booking.BookingId">
+                                        <button class="btn btn-success btn-sm" type="submit">Approve</button>
+                                    </form>
+                                </td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <h3 class="text-danger">There are no previous bookings found.</h3>
+        }
+        <br />
+        <a asp-action="Index" asp-controller="Home" class="btn btn-dark btn-sm">Return to homepage</a>
+    </div>
+</main>

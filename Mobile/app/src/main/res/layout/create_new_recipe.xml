@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="50dp"
+        android:elevation="2dp">
+
+    <ImageView
+        android:id="@+id/imgRecImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/main_image_shape"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        >
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/btnCaptureImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hind"
+        android:text="Capture recipe image"
+        android:textColor="@color/white"
+        app:chipBackgroundColor="#F44336"
+        app:chipIcon="@drawable/_camera"
+        app:chipIconEnabled="true"
+        app:chipIconTint="#FEFEFE"
+        app:chipStartPadding="10dp"
+        app:chipIconVisible="true" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/btnBrowseImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hind"
+        android:text="Browse image"
+        android:textColor="@color/white"
+        app:chipBackgroundColor="#F44336"
+        app:chipIcon="@drawable/_upload"
+        app:chipIconEnabled="true"
+        app:chipIconTint="#FEFEFE"
+        app:chipStartPadding="10dp"
+        app:chipIconVisible="true" />
+
+    </com.google.android.material.chip.ChipGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/hind"
+        android:text="Format"
+        android:textSize="18sp"/>
+
+    <RadioGroup
+        android:id="@+id/rdoGroup"
+        android:layout_width="342dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="98dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:text="Text"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:layout_width="98dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:text="Audio"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:layout_width="98dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:text="Video"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/hind"
+        android:text="Details"
+        android:textSize="18sp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/txtRecipeName"
+            android:backgroundTint="#EDEDED"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recipe name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/txtRecipeDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#EDEDED"
+            android:hint="Preparation duration (hh:mm)"
+            android:inputType="time" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="8dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/spnrRecipeType"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#EDEDED"
+            android:hint="Select recipe type"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Next"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

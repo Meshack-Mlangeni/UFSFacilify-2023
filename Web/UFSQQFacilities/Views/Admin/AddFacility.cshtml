@@ -1,0 +1,65 @@
+﻿@model AddFacilityViewModel
+@{
+    ViewBag.Title = "Facilify - Add Facility";
+}
+
+<main>
+    <div class="mt-4 mb-4">
+        <h4 class="mt-3">Add new facility</h4>
+    </div>
+    <form asp-action="AddFacility" asp-controller="Admin" method="post" enctype="multipart/form-data">
+
+        <div class="form-group mb-3">
+            <div class="d-flex justify-content-between">
+                <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="Name"></label>
+                <small class="text-muted">Facility must be unique</small>
+            </div>
+            <input class="form-control" autocomplete="off"
+                   placeholder="Enter facility name" asp-for="Name" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="Description"></label>
+            <textarea class="form-control" autocomplete="off"
+                      placeholder="Enter facility description" asp-for="Description"></textarea>
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="Space"></label>
+            <input type="number" class="form-control" autocomplete="off"
+                   placeholder="Enter facility space" asp-for="Space" />
+        </div>
+
+        <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="Price"></label>
+        <div class="input-group mb-3">
+            <br />
+            <span class="input-group-text">R</span>
+            <input type="number" class="form-control" autocomplete="off"
+                   placeholder="Enter facility price" asp-for="Price" />
+            <span class="input-group-text">.00</span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="Categories"></label>
+            <textarea class="form-control" autocomplete="off"
+                      placeholder="Enter facility categories" asp-for="Categories"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Images" class="form-label"></label>
+            <input asp-for="Images" class="form-control" />
+        </div>
+
+        <div class="text-center mt-3">
+            <button type="submit" class="btn btn-dark btn-sm shadow-sm">
+                <span class="fa fa-plus"></span>
+                Create facility
+            </button>
+            <br /><br />
+            <a asp-action="Facility" asp-controller="Home">
+                Cancel
+            </a>
+
+        </div>
+    </form>
+</main>

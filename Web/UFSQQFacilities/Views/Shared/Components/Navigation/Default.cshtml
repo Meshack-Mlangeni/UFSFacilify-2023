@@ -1,0 +1,154 @@
+﻿@model NavigationViewModel
+
+@{
+    string action = ViewContext.RouteData.Values["action"].ToString();
+}
+
+<div class="fixed-top">
+    <div id="register-panel" class="navbar navbar-expand-md navbar-dark text-light bg-dark ps-3 pe-3 shadow-sm">
+
+        <a class="navbar-brand" asp-action="Index" asp-controller="Home">
+            <img class="img-fluid ms-3" style="height:32px; filter: drop-shadow(0px 0px 1px rgba(254, 254, 254, 0.8));" src="/images/ufs_logo.png" />
+            &nbsp;| FACILIFY
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="collapsingNavbar">
+            <ul class="nav justify-content-center mx-auto text-small">
+                <li class="text-center">
+                    <a asp-action="Index" asp-controller="Home" class="nav-link
+                        @(action.ToLower() == "index" ? "text-secondary" : "text-white")">
+                        Home
+                    </a>
+                </li>
+
+                @if (User.IsInRole("Administrator"))
+                {
+                    <li class="nav-item dropdown">
+                        <a asp-action="Index" class="nav-link dropdown-toggle text-truncate
+                            @(action.ToLower() == "facilities" ? "text-secondary" : "text-white")"
+                           data-bs-toggle="dropdown">
+                            Administrator
+                        </a>
+
+                        <div class="dropdown-menu dropdown-me dropdown-menu-end shadow-sm">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a class="dropdown-item position-relative" asp-action="Users" asp-controller="Admin">
+                                    &nbsp;&nbsp;&nbsp;View all users
+                                </a>
+                                <a class="dropdown-item position-relative" asp-action="Facilities" asp-controller="Home">
+                                    &nbsp;&nbsp;&nbsp;Manage facilities
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item position-relative" asp-action="GenerateReport" asp-controller="Admin">
+                                    <span class="fa fa-file-pdf"></span>
+                                    &nbsp;&nbsp;&nbsp;Generate report
+                                </a>
+                            }
+                        </div>
+                    </li>
+                }
+                else if (User.IsInRole("Manager"))
+                {
+                    <li class="text-center">
+                        <a asp-action="Facilities" asp-controller="Home" class="nav-link
+                        @(action.ToLower() == "facilities" ? "text-secondary" : "text-white")">
+                            My Facilities
+                        </a>
+                    </li>
+                    <li class="text-center">
+                        <a asp-action="Reviews" asp-controller="Manager" class="nav-link
+                        @(action.ToLower() == "reviews" ? "text-secondary" : "text-white")">
+                            Reviews
+                        </a>
+                    </li>
+                    <li class="text-center">
+                        <a asp-action="Transactions" asp-controller="Manager" class="nav-link
+                        @(action.ToLower() == "transactions" ? "text-secondary" : "text-white")">
+                            Transactions
+                        </a>
+                    </li>
+                    <li class="text-center">
+                        <a asp-action="Incharge" asp-controller="Manager" class="nav-link
+                        @(action.ToLower() == "incharge" ? "text-secondary" : "text-white")">
+                            Manage Incharges
+                        </a>
+                    </li>
+                }
+                else
+                {
+                    <li class="text-center">
+                        <a asp-action="Facilities" asp-controller="Home" class="nav-link
+                        @(action.ToLower() == "facilities" ? "text-secondary" : "text-white")">
+                            Facilities
+                        </a>
+                    </li>
+                    <li class="text-center">
+                        <a asp-action="Contact" asp-controller="Home" class="nav-link
+                       @(action.ToLower() == "contact" ? "text-secondary" : "text-white")">
+                            Contact us
+                        </a>
+                    </li>
+                    <li class="text-center">
+                        <a asp-action="About" asp-controller="Home" class="nav-link
+                        @(action.ToLower() == "about" ? "text-secondary" : "text-white")">
+                            About
+                        </a>
+                    </li>
+                }
+            </ul>
+
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item dropdown">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a asp-action="Index" class="nav-link dropdown-toggle text-truncate" data-bs-toggle="dropdown">
+                            <span class="fa fa-user"></span>
+                            Hello, @Model.user.FirstName
+                        </a>
+                    }
+                    <div class="dropdown-menu dropdown-me dropdown-menu-end shadow-sm">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <div class="dropdown-header">Hello, @Model.user.FirstName</div>
+                            @if (!User.IsInRole("Administrator"))
+                            {
+                                <a class="dropdown-item position-relative" asp-action="Notifications" asp-controller="Home">
+                                    <span class="fa fa-bell"></span>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Notifications
+                                    @if (Model.Notifications.Where(n => !n.IsRead).Count() > 0)
+                                    {
+                                        <span class="position-absolute top-50 end-0 translate-middle badge rounded-pill bg-danger">
+                                            @Model.Notifications.Where(n => !n.IsRead).Count()
+                                        </span>
+                                    }
+                                </a>
+                                @if (!User.IsInRole("Manager") && !User.IsInRole("Incharge"))
+                                {
+                                    <a class="dropdown-item" asp-action="BookingHistory" asp-controller="Home"><span class="fa fa-list-ol"></span>&nbsp;&nbsp;&nbsp;&nbsp;Booking History</a>
+                                    <div class="dropdown-divider"></div>
+                                }
+                                <a class="dropdown-item" asp-action="Edit" asp-controller="Account" asp-route-id="@Model.user.Id"><span class="fa fa-gears"></span> &nbsp;&nbsp;&nbsp;Manage profile</a>
+                                <div class="dropdown-divider"></div>
+                            }
+                            <form asp-controller="Account" asp-action="Logout" method="post">
+                                <button class="dropdown-item" type="submit"><span class="fa fa-power-off"></span> &nbsp;&nbsp;&nbsp;&nbsp;End session</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <a class="dropdown-item" asp-action="Login" asp-controller="Account"><span class="fa fa-key"></span> &nbsp;&nbsp;&nbsp;&nbsp;Login</a>
+                        }
+
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</div>
+<div class="p-4 mt-2"></div>

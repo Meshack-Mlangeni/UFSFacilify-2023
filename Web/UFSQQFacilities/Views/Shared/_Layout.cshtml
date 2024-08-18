@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+@{
+    string action = (string)ViewContext.RouteData.Values["action"].ToString().ToLower();
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/custom.css" rel="stylesheet" />
+    <link href="/lib/font-awesome/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    @if (User.Identity.IsAuthenticated && (action != "login" || action != "register"))
+    {
+        <vc:navigation></vc:navigation>
+    }
+
+    @if (User.Identity.IsAuthenticated && (action == "index"))
+    {
+        <div class="header-img p-4 shadow-sm">
+            <div class="container">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <h5 class="display-5 text-light">
+                        Hello @Model.user.FirstName @Model.user.LastName
+                        @if (User.IsInRole("Manager"))
+                        {
+                            <span style="color:darkgray;"> | Manager</span>
+                        }
+                        else if (User.IsInRole("Administrator"))
+                        {
+                            <span style="color:darkgray;"> | Administrator</span>
+                        }
+                        else if (User.IsInRole("Incharge"))
+                        {
+                            <span style="color:darkgray;"> | Incharge</span>
+                        }
+                        else
+                        {
+                            <span class="fa fa-user-alt"></span>  <span style="color:darkgray;">| User </span>
+                        }
+                    </h5>
+
+                    @if (User.IsInRole("Administrator") || User.IsInRole("Manager"))
+                    {
+                        <p class="text-light text-justify lead" style="text-align:justify;">
+                            Take control of your facilities with ease and efficiency. Get started now and witness the
+                            transformation in managing your facility managers, users, orders, and facilities like never before.
+                        </p>
+                    }
+                    else if (User.IsInRole("Incharge"))
+                    {
+                        <p class="text-light text-justify lead" style="text-align:justify;">
+                            Take control of your facilities with ease and efficiency.
+                        </p>
+                    }
+                    else
+                    {
+                        <p class="text-light text-justify lead" style="text-align:justify;">
+                            We are thrilled to have you here, get ready to discover the convenience and efficiency our platform offers.
+                        </p>
+                        <a asp-action="Facilities" asp-controller="Home" class="btn btn-dark rounded-5 p-2 ps-3 pe-3 shadow-sm">
+                            Book a facility
+                        </a>
+                    }
+                }
+            </div>
+        </div>
+    }
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    @if (User.Identity.IsAuthenticated && (action != "login" || action != "register"))
+    {
+        <div class="p-5 mt-3 mb-3"></div>
+        <div class="p-3 container" style="background-color: rgba(0, 0, 0, 0.0);">
+            <section class="mb-2">
+                <a class="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/mncedisi.superior.3" role="button">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a class="btn btn-outline-dark btn-floating m-1" href="twitter.com/" role="button">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a class="btn btn-outline-dark btn-floating m-1" href="https://za.linkedin.com/in/mncedisi-mlangeni-1145351a6" role="button">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a class="btn btn-outline-dark btn-floating m-1" href="mailto:ufsfacilify@gmail.com" role="button">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </section>
+            <h6>  <span class="fa fa-copyright"></span> 2023 UFS FACILIFY | MLANGENI MM (2018477634)</h6>
+        </div>
+
+    }
+    <script asp-src-include="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

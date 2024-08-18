@@ -1,0 +1,42 @@
+﻿@model IQueryable<Notification>
+@{
+    ViewBag.Title = "Facilify - Notifications";
+}
+
+
+<main>
+    <div class="mt-4">
+        <h2>Notifications <span class="text-muted"> | You have @Model.Where(n => n.IsRead == false).Count() unread messsage(s)</span></h2>
+
+        <br />
+
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>Date recieved</th>
+                    <th>Message</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var notification in Model)
+                {
+                    <tr>
+                        <td>@notification.Created</td>
+                        <td>@notification.Message</td>
+                        <td>@(notification.IsRead ? "Read" : "Not read")</td>
+                        <td>
+                            @if (!notification.IsRead)
+                            {
+                                <form asp-action="Notifications" asp-controller="Home" method="post" asp-route-id ="@notification.NotificationId">
+                                <button type="submit" class="btn btn-warning btn-sm">Mark as read</button>
+                                </form>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</main>

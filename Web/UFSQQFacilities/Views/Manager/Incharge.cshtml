@@ -1,0 +1,97 @@
+﻿@model InchargeViewModel
+@{
+    ViewBag.Title = "Facilify - Manage Incharges";
+}
+
+
+<main>
+    <div class="mt-4 mb-4">
+        <div class="text-danger mt-3" asp-validation-summary="All"></div>
+        <h2 class="text-muted">Manage Incharges <span class="text-muted"> | All users</span></h2>
+
+
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success alert-dismissible" role="alert">
+                <button type="button" class="btn-close"
+                        data-bs-dismiss="alert" aria-label="Close">
+                </button>
+                @TempData["Message"]
+            </div>
+        }
+
+
+
+        @if (Model?.Users?.Count() > 0)
+        {
+            <br />
+
+            <table class="table table-danger table-striped table-bordered table-hover table-sm shadow-sm">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Student/Id/Staff number</th>
+                        <th>Date joined</th>
+                        <th>Assign facility</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model.Users
+                   .OrderBy(d => d.DateJoined))
+                    {
+                        if (Model.Managers.Any(u => u.Id == user.Id))
+                        {
+                            continue;
+                        }
+                        <tr>
+                            <td>
+                                @user.FirstName @user.LastName
+                            </td>
+                            <td>@(user.StudentStaffNumber ?? user.IdPassportNumber)</td>
+                            <td>@user.DateJoined.ToShortDateString()</td>
+
+                            @if (Model.Facilities.Any(f => user.Email.ToLower() == f.SecurityEmail.ToLower()))
+                            {
+                                <td>
+                                    <form asp-action="RemoveIncharge" asp-controller="Manager" asp-route-id="@Model.Facilities.FirstOrDefault(f => user.Email.ToLower() == f.SecurityEmail.ToLower()).FacilityId" method="post">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="text-success">User is assigned to @Model.Facilities.FirstOrDefault(f => user.Email.ToLower() == f.SecurityEmail.ToLower()).Name</h6>
+
+                                            <button onclick="return confirm('Are you sure you want to remove user from security role?');"
+                                                    type="submit" class="btn btn-danger btn-sm ms-2 me-2">
+                                                Remove user from security role
+                                            </button>
+                                        </div>
+                                    </form>
+                                </td>
+                            }
+                            else
+                            {
+                                <td>
+                                    <form asp-action="Incharge" asp-controller="Manager" asp-route-id="@user.Id" method="post">
+                                        <div class="d-flex justify-content-between">
+                                            <select name="facility" class="form-select form-select-sm" asp-items="@ViewBag.Facilities">
+                                                <option value="0">---Assign facility to user</option>
+                                            </select>
+
+                                            <button onclick="return confirm('Are you sure you want to assign facility to user?');"
+                                                    type="submit" class="btn btn-success btn-sm ms-2 me-2">
+                                                Save
+                                            </button>
+                                        </div>
+                                    </form>
+                                </td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        }
+        else
+        {
+            <br />
+            <h3 class="text-danger">No users found</h3>
+        }
+    </div>
+</main>

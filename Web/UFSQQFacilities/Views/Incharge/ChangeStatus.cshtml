@@ -1,0 +1,25 @@
+﻿@model ChangeStatusViewModel
+@{
+    ViewBag.Title = "Facilify - Change Facility Status";
+}
+
+
+<main>
+    <div class="mt-4 mb-4">
+        <h2 class="text-muted">Change facility status: @Model.AssignedFacility.Name</h2>
+        <form asp-action="ChangeStatus" asp-controller="Incharge" asp-route-id="@Model.AssignedFacility.FacilityId" method="post">
+            <h4 class="text-muted">You are incharge of this facility</h4>
+            <br />
+
+            <h4>Space allocated for the facility: <b>@Model.AssignedFacility.Space</b></h4>
+            <h4 class="@(Model.Bookings.Count() > Model.AssignedFacility.Space ? "text-danger" : "text-success")">
+                Bookings made to this facility today: <b>@Model.Bookings.Count()</b></h4>
+
+            <br /><br />
+            <h5>@(Model.AssignedFacility.Available ? "Facility is currently made available." : "Facility is currently occupied.")</h5>
+            <button onclick="return confirm('Are you sure you want to change this facility status?');"
+                 class="btn btn-dark btn-sm" type="submit">@(Model.AssignedFacility.Available ? "Make unavalable" : "Make available")</button>
+            <a class="btn btn-outline-danger btn-sm" asp-action="Facilities" asp-controller="Home">Go back</a>
+        </form>
+    </div>
+</main>

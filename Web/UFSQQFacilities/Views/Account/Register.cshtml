@@ -1,0 +1,117 @@
+﻿@model RegisterViewModel
+@{
+    ViewBag.Title = "Facilify - Register";
+}
+
+
+
+<div class="d-flex justify-content-center align-items-center p-4" style="min-height: 100vh;">
+    <div class="card shadow-sm">
+        <div>
+            <div id="register-panel" class="card-header">
+                <div class="text-center">
+                    <img class="img-fluid p-3" style="width:10rem;filter: drop-shadow(0px 0px 1px rgba(254, 254, 254, 0.8));" src="/images/ufs_logo.png" />
+                </div>
+                <h2 class="display-6 text-light text-center ps-4 pe-4">
+                    Hello, create an account to
+                    view and book facilities
+                </h2>
+            </div>
+        </div>
+
+        <div class="text-danger mt-3" asp-validation-summary="All"></div>
+
+        <div class="text-center mt-3">
+            <h6>Register as</h6>
+            <div class="btn-group btn-group-sm">
+
+                <a asp-controller="Account" asp-action="Register"
+                   asp-route-registerAs="studentstaff" class="btn btn-dark btn-sm
+                  @(Model.RegisterAs == "studentstaff" ? "active" : "")">Student or staff</a>
+
+                <a asp-controller="Account" asp-action="Register"
+                   asp-route-registerAs="visitor" class="btn btn-dark btn-sm
+                  @(Model.RegisterAs == "visitor" ? "active" : "")">Visitor</a>
+
+            </div>
+        </div>
+
+        <div class="m-5">
+            <form asp-action="Register" asp-controller="Account" method="post">
+                <input type="hidden" asp-for="RegisterAs" />
+
+                <div class="form-group mb-3">
+                    <div class="d-flex justify-content-between">
+                        <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="EmailAddress"></label>
+                        <small class="text-muted">Email address must be unique</small>
+                    </div>
+                        <input class="form-control" asp-for="EmailAddress" autocomplete="off"
+                               placeholder="eg JohnJobe@email.com" />
+                </div>   
+
+                <div class="form-group mb-3">
+                    <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="IdPassportNumber"></label>
+                    <input class="form-control" asp-for="IdPassportNumber" autocomplete="off"
+                           placeholder="Enter Id or Passport number" />
+                </div>
+
+                @*Hide if registeras is not student or staff*@
+                <div class="form-group mb-3  @(Model.RegisterAs != "studentstaff" ? "visually-hidden" : "")">
+                    <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="StudentStaffNumber"></label>
+                    <input class="form-control" asp-for="StudentStaffNumber" autocomplete="off"
+                           placeholder="Enter student or staff number" />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="FirstName"></label>
+                    <input class="form-control" asp-for="FirstName" autocomplete="off"
+                           placeholder="eg John" />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="LastName"></label>
+                    <input class="form-control" asp-for="LastName" autocomplete="off"
+                           placeholder="eg Jobe" />
+                </div>
+
+                <div class="form-group mt-5 mb-2">
+                    <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="Password"></label>
+                    <input class="form-control" asp-for="Password" autocomplete="off"
+                           placeholder="Enter password" />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="ConfirmPassword"></label>
+                    <input class="form-control" asp-for="ConfirmPassword" autocomplete="off"
+                           placeholder="Confirm password" />
+                </div>
+
+                <div class="form-group mt-5 mb-2">
+                    <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="SecurityQuestion"></label>
+                    <input class="form-control" asp-for="SecurityQuestion" autocomplete="off"
+                           placeholder="eg What is the name of your first pet?" />
+                </div>
+
+                <div class="form-group mb-3">
+                    <label class="text-uppercase fw-semibold text-dark-emphasis" asp-for="SecurityAnswer"></label>
+                    <input class="form-control" asp-for="SecurityAnswer" autocomplete="off"
+                           placeholder="Write your answer here" />
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-dark btn-sm shadow-sm">
+                        <span class="fa fa-user-plus"></span>
+                        Create account
+                    </button>
+                    <br /><br />
+                    Already have an account?
+                    <a asp-action="Login" asp-controller="Account" >
+                      Login
+                    </a>
+                  
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
